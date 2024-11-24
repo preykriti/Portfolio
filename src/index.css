@@ -71,5 +71,12 @@ button:focus-visible {
   }
 } */
 
+body {
+  background-color:#272726;
+  font-family: "Poppins";
+  color: #F1E6D9;
+}
 
-
+nav{
+  position: static;
+}
