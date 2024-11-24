@@ -1,12 +1,12 @@
 import React from "react";
 import daisyFlower from "../assets/daisy.png";
 import LineSeparation from "./LineSeparation";
+import SkillBox from "./SkillBox";
 
 const AboutMe = () => {
   return (
-    <div>
+    <div id="aboutMe" className="">
       <LineSeparation />
-
       <h1 className="font-unkempt text-softCream text-3xl font-bold py-6">
         ABOUT ME
       </h1>
@@ -22,35 +22,44 @@ const AboutMe = () => {
 
       {/* ed and skills */}
 
-      <div className="flex sm:flex-row flex-col my-6">
+      <div className="flex sm:flex-row flex-col my-20" id="edandskills">
         {/* for education */}
 
-        <div className="sm:w-1/2">
-          <h1 className="font-unkempt text-sageGreen text-3xl">EDUCATION</h1>
-          <ul className="py-3 space-y-8">
-            <li className="flex gap-2 items-center">
-              <img src={daisyFlower} className="w-11" />
-              <h3 className="mr-6">2021-Present</h3>
+        <div className="sm:w-1/2 " id="education">
+          <h1 className="font-unkempt text-sageGreen text-3xl pt-4 pb-8">
+            EDUCATION
+          </h1>
+          <ul className=" space-y-12 ">
+            <li className="flex gap-2 items-center group">
+              <img
+                src={daisyFlower}
+                className="w-11 group-hover:animate-spin "
+              />
+              <h3 className="mr-6 text-xl text-mutedBlush">2021-Present</h3>
               <div>
-                <p>Bachelor in Computer Engineering</p>
+                <p className="text-sm">Bachelor in Computer Engineering</p>
                 <p>Himalaya College of Engineering, Chyasal, Lalitpur</p>
               </div>
             </li>
-            <li className="flex gap-2 items-center">
-              <img src={daisyFlower} className="w-11" />
-              <h3 className="mr-11">2018-2020</h3>
+            <li className="flex gap-2 items-center group">
+              <img
+                src={daisyFlower}
+                className="w-11 group-hover:animate-spin"
+              />
+              <h3 className="mr-12 text-xl text-mutedBlush">2018-2020 </h3>
               <div>
-                <p>
-                  Grade 11 GPA – 3.31 Grade 12 GPA – 3.50 Aggregate GPA – 3.41
-                </p>
+                <p className="text-sm">Grade 11 & Grade 12</p>
                 <p>Capital College and Research Center, Balkumari, Lalitpur</p>
               </div>
             </li>
-            <li className="flex gap-2 items-center">
-              <img src={daisyFlower} className="w-11" />
-              <h3 className="mr-11">2006-2018</h3>
+            <li className="flex gap-2 items-center group">
+              <img
+                src={daisyFlower}
+                className="w-11 group-hover:animate-spin"
+              />
+              <h3 className="mr-12 text-xl text-mutedBlush">2006-2018</h3>
               <div>
-                <p>SEE GPA – 3.86 </p>
+                <p className="text-sm">SEE</p>
                 <p>
                   Pawan Prakriti English Secondary School, Tikathali, Lalitpur
                 </p>
@@ -58,11 +67,71 @@ const AboutMe = () => {
             </li>
           </ul>
         </div>
-        {/* for skills */}
-        <div className="bg-sageGreen rounded-lg sm:w-1/2">
-          <h1 className="font-unkempt text-backgroundColor text-3xl ">
-            SKILLS
-          </h1>
+
+        {/* skills */}
+        <div className="sm:w-1/2 group" id="skills">
+          {/* TECHNICAL SKILLS */}
+          <div className="bg-sageGreen rounded-lg  sm:px-6 px-2 mt-20 sm:mt-0 pb-6">
+            <h1 className="font-unkempt text-softCream text-3xl pt-4 pb-8">
+              TECHNICAL SKILLS
+            </h1>
+            <div className="grid grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 gap-8">
+              <SkillBox text="HTML" />
+              <SkillBox text="CSS" />
+              <SkillBox text="Javascript" />
+              <SkillBox text="MERN" />
+              <SkillBox text="C, C++" />
+              <SkillBox text="Flutter" />
+              <SkillBox text="SQL" />
+              <SkillBox text="Python" />
+              <SkillBox text="Git" />
+            </div>
+
+            {/* design tools */}
+            <div>
+              <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
+                DESIGN TOOLS
+              </h3>
+              <div className="grid grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 gap-8">
+                <SkillBox text="Figma" />
+                <SkillBox text="Canva" />
+              </div>
+            </div>
+
+            {/* softskills */}
+            <div>
+              <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
+                SOFT SKILLS
+              </h3>
+              <div className="grid grid-cols-1 lg:grid-cols-3 xs:grid-cols-2 gap-8">
+                <SkillBox text="Teamwork" bg="white" />
+                <SkillBox text="Problem solving" bg="white" />
+                <SkillBox text="Creativity" bg="white" />
+                <SkillBox text="Communication" bg="white" />
+              </div>
+            </div>
+
+            {/* languages */}
+
+            <div>
+              <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
+                LANGUAGES
+              </h3>
+              <div className="grid grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 gap-8">
+                <SkillBox text="Nepali" bg="white" />
+                <SkillBox text="English" bg="white" />
+                <SkillBox text="Hindi" bg="white" />
+              </div>
+            </div>
+          </div>
+          <div className="bg-sageGreen rounded-lg  sm:px-6 px-2 mt-20 sm:mt-10 py-6">
+            <h3 className="font-unkempt text-softCream text-3xl pb-8">
+              HOBBIES
+            </h3>
+            <p>Crochet</p>
+            <p>Art & craft</p>
+            <p>Reading</p>
+          </div>
         </div>
       </div>
     </div>

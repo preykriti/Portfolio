@@ -8,7 +8,7 @@ const Hero = () => {
       <LineSeparation/>
       <div className=" flex sm:flex-row flex-col pt-6 items-center">
         <div className="relative sm:w-1/2 group">
-          <div className="absolute bg-sageGreen inset-0 z-0 rounded-lg group-hover:scale-90 transition-transform duration-500"></div>
+          <div className="absolute bg-sageGreen inset-0 z-0 rounded-lg group-hover:scale-75 transition-transform duration-500"></div>
           <img
             src={myPhoto}
             alt="photo"
