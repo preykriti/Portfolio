@@ -11,14 +11,11 @@ const AboutMe = () => {
       <h1 className="font-unkempt text-sageGreen text-3xl font-bold py-6">
         ABOUT ME
       </h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-        fugit deserunt, ipsam possimus iste rem debitis aliquid praesentium
-        ducimus, ipsum omnis veritatis! Illo adipisci quos ducimus reprehenderit
-        distinctio commodi, magnam eaque et laborum, ullam nulla excepturi? Est
-        labore numquam quibusdam sit ratione aperiam perferendis explicabo sint
-        temporibus, laborum quo error impedit sunt sed accusantium aut neque
-        illo dicta saepe eum.
+      <p className="text-lg">
+        I'm a Computer Engineering student with a passion for web development. I
+        mainly focus on MERN stack technology in order to create modern,
+        responsive web applications. I am eager to continue learning and grow as
+        a full-stack developer, focused on building user-centric applications.
       </p>
 
       {/* ed and skills */}
