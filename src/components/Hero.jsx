@@ -23,10 +23,14 @@ const Hero = () => {
             Prakriti Shrestha
           </h1>
           <p className="text-3xl py-6">Computer Engineering Student</p>
-          {/* <button
-            className="text-center bg-softCream bg-opacity-60 shadow-[4px_4px_0px_#556B2F] rounded-full text-sm text-charcoalGrey px-4 py-2 font-medium hover:-translate-y-1 transition-transform duration-300 ">
-            Download my CV
-          </button> */}
+          <a
+            href="../assets/resume.pdf"
+            target="blank"
+            download="Prakriti_resume.pdf"
+            className="text-center bg-softCream bg-opacity-80 shadow-[4px_4px_0px_#556B2F] rounded-full text-sm text-charcoalGrey px-4 py-2 font-medium hover:-translate-y-1 transition-transform duration-300 "
+          >
+            Download My CV
+          </a>
         </div>
       </div>
     </div>

@@ -43,7 +43,7 @@ const Navbar = () => {
         >
           Contact
         </Link>
-        <Link>Resume</Link>
+        {/* <a href='../assets/resume.pdf' target='_blank'>Resume</a> */}
         <a
           href="https://github.com/preykriti"
           target="blank"
