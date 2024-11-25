@@ -1,7 +1,7 @@
 import React from "react";
 import myPhoto from "../assets/myPhoto.png";
 import LineSeparation from "./LineSeparation";
-import SkillBox from "./SkillBox";
+import resume from "/resume.pdf";
 
 const Hero = () => {
   return (
@@ -22,11 +22,13 @@ const Hero = () => {
           <h1 className="font-unkempt text-6xl text-softCream">
             Prakriti Shrestha
           </h1>
-          <p className="text-3xl py-6">Computer Engineering Student</p>
+          <p className="sm:text-2xl text-xl  py-6">
+            Computer Engineering Student | Aspiring Web Developer
+          </p>
           <a
-            href="../assets/resume.pdf"
-            target="blank"
-            download="Prakriti_resume.pdf"
+            href={resume}
+            target="_blank"
+            download="Prakritis_resume.pdf"
             className="text-center bg-softCream bg-opacity-80 shadow-[4px_4px_0px_#556B2F] rounded-full text-sm text-charcoalGrey px-4 py-2 font-medium hover:-translate-y-1 transition-transform duration-300 "
           >
             Download My CV

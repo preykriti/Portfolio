@@ -30,19 +30,29 @@ const Contact = () => {
         <p>+977 9864261700</p>
       </div>
 
-      <div className="flex items-center mb-4 gap-6">
+      <a
+        href="https://www.linkedin.com/in/prakriti-shrestha-ba43b52b3/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        target="black"
+        rel="noopener noreferrer"
+        className="flex items-center mb-4 gap-6"
+      >
         <div className="flex justify-center items-center w-11 h-11 bg-softCream rounded-full shadow-[4px_4px_0px_#4A5845]">
           <FaLinkedinIn className="text-2xl text-oliveGreen" />
         </div>
         <p>Linked In</p>
-      </div>
+      </a>
 
-      <div className="flex items-center mb-4 gap-6">
+      <a
+        href="https://github.com/preykriti"
+        target="black"
+        rel="noopener noreferrer"
+        className="flex items-center mb-4 gap-6"
+      >
         <div className="flex justify-center items-center w-11 h-11 bg-softCream rounded-full shadow-[4px_4px_0px_#4A5845]">
           <FiGithub className="text-2xl text-oliveGreen" />
         </div>
         <p>GitHub</p>
-      </div>
+      </a>
     </div>
   );
 };
