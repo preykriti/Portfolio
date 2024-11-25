@@ -12,6 +12,7 @@ export default {
         charcoalGrey: "#333333",
         mossGreen: "#6F8B6C",
         backgroundColor: "#272726",
+        shadowColor: "#556B2F",
       },
       fontFamily: {
         unkempt: ["Unkempt"],

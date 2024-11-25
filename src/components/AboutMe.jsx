@@ -2,12 +2,13 @@ import React from "react";
 import daisyFlower from "../assets/daisy.png";
 import LineSeparation from "./LineSeparation";
 import SkillBox from "./SkillBox";
+import Hobbies from "./Hobbies";
 
 const AboutMe = () => {
   return (
-    <div id="aboutMe" className="">
+    <div id="aboutMe" className="mb-16">
       <LineSeparation />
-      <h1 className="font-unkempt text-softCream text-3xl font-bold py-6">
+      <h1 className="font-unkempt text-sageGreen text-3xl font-bold py-6">
         ABOUT ME
       </h1>
       <p>
@@ -22,10 +23,13 @@ const AboutMe = () => {
 
       {/* ed and skills */}
 
-      <div className="flex sm:flex-row flex-col my-20" id="edandskills">
+      <div className="flex sm:flex-row flex-col mt-20 " id="edandskills">
         {/* for education */}
 
-        <div className="sm:w-1/2 " id="education">
+        <div
+          className="sm:w-1/2 sm:sticky sm:top-16 sm:h-[calc(100vh-4rem)] overflow-hidden z-60"
+          id="education"
+        >
           <h1 className="font-unkempt text-sageGreen text-3xl pt-4 pb-8">
             EDUCATION
           </h1>
@@ -69,13 +73,13 @@ const AboutMe = () => {
         </div>
 
         {/* skills */}
-        <div className="sm:w-1/2 group" id="skills">
+        <div className="sm:w-1/2 sm:my-6 sm:mt-0 mt-20" id="skills">
           {/* TECHNICAL SKILLS */}
-          <div className="bg-sageGreen rounded-lg  sm:px-6 px-2 mt-20 sm:mt-0 pb-6">
+          <div className="bg-sageGreen rounded-lg sm:px-6 px-2  pb-6 ">
             <h1 className="font-unkempt text-softCream text-3xl pt-4 pb-8">
               TECHNICAL SKILLS
             </h1>
-            <div className="grid grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 gap-8">
+            <div className="group grid grid-cols-2 lg:grid-cols-3 xs:grid-cols-2 gap-8">
               <SkillBox text="HTML" />
               <SkillBox text="CSS" />
               <SkillBox text="Javascript" />
@@ -88,7 +92,7 @@ const AboutMe = () => {
             </div>
 
             {/* design tools */}
-            <div>
+            <div className="group">
               <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
                 DESIGN TOOLS
               </h3>
@@ -99,7 +103,7 @@ const AboutMe = () => {
             </div>
 
             {/* softskills */}
-            <div>
+            <div className="group">
               <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
                 SOFT SKILLS
               </h3>
@@ -113,7 +117,7 @@ const AboutMe = () => {
 
             {/* languages */}
 
-            <div>
+            <div className="group">
               <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
                 LANGUAGES
               </h3>
@@ -124,14 +128,8 @@ const AboutMe = () => {
               </div>
             </div>
           </div>
-          <div className="bg-sageGreen rounded-lg  sm:px-6 px-2 mt-20 sm:mt-10 py-6">
-            <h3 className="font-unkempt text-softCream text-3xl pb-8">
-              HOBBIES
-            </h3>
-            <p>Crochet</p>
-            <p>Art & craft</p>
-            <p>Reading</p>
-          </div>
+
+          <Hobbies />
         </div>
       </div>
     </div>

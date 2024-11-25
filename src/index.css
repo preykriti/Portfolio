@@ -83,5 +83,23 @@ nav{
   z-index: 100;
 }
 
+/* #edandskills {
+  position: relative;
+} */
+
+/* #education {
+  position: sticky;
+  top: 4rem;
+  height: calc(100vh - 4rem);
+  overflow: hidden;
+  z-index: 60;
+} */
+
+#skills {
+  overflow-y: scroll;
+  flex: 1;
+  scrollbar-width: none;
+}
+
 
 
