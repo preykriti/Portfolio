@@ -1,10 +1,9 @@
-import React from 'react'
-import LineSeparation from './LineSeparation'
+import React from "react";
+import LineSeparation from "./LineSeparation";
 import { MdOutlineMail } from "react-icons/md";
 import { MdOutlinePhone } from "react-icons/md";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-
 
 const Contact = () => {
   return (
@@ -28,7 +27,7 @@ const Contact = () => {
         <div className="flex justify-center items-center w-11 h-11 bg-softCream rounded-full shadow-[4px_4px_0px_#4A5845]">
           <MdOutlinePhone className="text-2xl text-oliveGreen" />
         </div>
-        <p>+977 1234567890</p>
+        <p>+977 9864261700</p>
       </div>
 
       <div className="flex items-center mb-4 gap-6">
@@ -46,6 +45,6 @@ const Contact = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Contact
+export default Contact;
