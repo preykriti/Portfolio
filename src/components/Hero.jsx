@@ -28,7 +28,7 @@ const Hero = () => {
           <a
             href={resume}
             target="_blank"
-            download="Prakritis_resume.pdf"
+            download="Prakritis_CV.pdf"
             className="text-center bg-softCream bg-opacity-80 shadow-[4px_4px_0px_#556B2F] rounded-full text-sm text-charcoalGrey px-4 py-2 font-medium hover:-translate-y-1 transition-transform duration-300 "
           >
             Download My CV
