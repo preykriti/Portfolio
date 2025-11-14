@@ -12,10 +12,7 @@ const AboutMe = () => {
         ABOUT ME
       </h1>
       <p className="text-lg">
-        I'm a Computer Engineering student with a passion for web development. I
-        mainly focus on MERN stack technology in order to create modern,
-        responsive web applications. I am eager to continue learning and grow as
-        a full-stack developer, focused on building user-centric applications.
+        I'm a Computer Engineering graduate who enjoys building things for the web and mobile. I enjoy working with React, React Native, and JavaScript in general.
       </p>
 
       {/* ed and skills */}
@@ -36,9 +33,9 @@ const AboutMe = () => {
                 src={daisyFlower}
                 className="w-11 group-hover:animate-spin "
               />
-              <h3 className="mr-6 text-xl text-mutedBlush">2021-Present</h3>
+              <h3 className="mr-12 text-xl text-mutedBlush">2021-2025</h3>
               <div>
-                <p className="text-sm">Bachelor in Computer Engineering</p>
+                <p className="text-sm">Bachelors in Computer Engineering</p>
                 <p>Himalaya College of Engineering, Chyasal, Lalitpur</p>
               </div>
             </li>
@@ -80,9 +77,11 @@ const AboutMe = () => {
               <SkillBox text="HTML" />
               <SkillBox text="CSS" />
               <SkillBox text="Javascript" />
+              <SkillBox text="Typescript" />
+              <SkillBox text="React Native" />
               <SkillBox text="MERN" />
+              <SkillBox text="Firebase" />
               <SkillBox text="C, C++" />
-              <SkillBox text="Flutter" />
               <SkillBox text="SQL" />
               <SkillBox text="Python" />
               <SkillBox text="Git" />
@@ -104,10 +103,11 @@ const AboutMe = () => {
               <h3 className="font-unkempt text-softCream text-3xl pt-10 pb-8">
                 SOFT SKILLS
               </h3>
-              <div className="grid grid-cols-1 lg:grid-cols-3 xs:grid-cols-2 gap-8">
+              <div className="grid grid-cols-1 lg:grid-cols-3 xs:grid-cols-2 gap-5">
                 <SkillBox text="Teamwork" bg="white" />
                 <SkillBox text="Problem solving" bg="white" />
                 <SkillBox text="Creativity" bg="white" />
+                <SkillBox text="Leadership" bg="white" />
                 <SkillBox text="Communication" bg="white" />
               </div>
             </div>

@@ -12,7 +12,7 @@ const Hobbies = () => {
         </li>
         <li className="flex text-lg items-center gap-5 text-shadowColor font-medium">
           <img src={daisy} className="w-9" />
-          Arts and crafts
+          Sketching
         </li>
         <li className="flex text-lg items-center gap-5 text-shadowColor font-medium">
           <img src={daisy} className="w-9" />

@@ -4,7 +4,7 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 const ProjectCard = (props) => {
   return (
     <div>
-      <div className="flex flex-col justify-between  bg-softCream bg-opacity-10 text-mutedBlush rounded-lg p-3 min-h-72">
+      <div className="flex flex-col justify-between  bg-softCream bg-opacity-10 text-mutedBlush rounded-lg p-3 min-h-full">
         <div>
           <h4 className="text-xl pb-2">{props.title}</h4>
           <hr className="h-1 bg-sageGreen border-none" />

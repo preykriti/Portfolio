@@ -24,13 +24,13 @@ const Projects = () => {
       </div>
 
       <h3 className="font-unkempt text-softCream text-2xl py-6">
-        Practice Projects
+        Other Projects
       </h3>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-8">
         <ProjectCard
           title="Notebook App"
-          description="Developed a note-taking web application, implementing features like
+          description="A note-taking web application, implementing features like
             creating, editing, and deleting notes. Added user authentication,
             tag-based filtering, and a responsive interface for smooth user
             experience."
@@ -39,9 +39,36 @@ const Projects = () => {
 
         <ProjectCard
           title="eCommerce Platform"
-          description="Building an e-commerce website with features like product filtering by category, subcategory, and price, search function, and add-to-cart functionality. The website is fully responsive across different screen sizes, with ongoing work on the backend and additional features."
+          description="An e-commerce website with features like product filtering by category, subcategory, and price, search function, and add-to-cart functionality. The website is fully responsive across different screen sizes, with ongoing work on the backend and additional features."
           github="https://github.com/preykriti/Ecommerce-app"
         />
+
+        <ProjectCard
+          title="Cosmic Focus App"
+          description=" A productivity and focus app. Users can create tasks, use a pomodoro timer, earn
+          rewards for successfully completing sessions. It also supports
+          adding friends, starting group focus sessions, posting achievements,
+          and activating deep focus mode which prevents distractions by blocking
+          other apps during a session."
+          github="https://github.com/preykriti/cosmic-focus"
+        />
+
+        <ProjectCard
+          title="Music Player App"
+          description="A music player application built with React Native.  It reads music
+          files from your device, allows you to play songs, view them by albums
+          or artists, and create custom playlists."
+          github="https://github.com/preykriti/music-player"
+        />
+
+        <ProjectCard
+        title="Todo App"
+        description="A Todo App built using React Native and Firebase with user
+          authentication. Users can add, edit, and delete tasks, and mark tasks
+          as completed using a checkbox system helping them manage their daily
+          activities efficiently."
+        github="https://github.com/preykriti/todo-mobile-app"
+      />
       </div>
     </div>
   );
