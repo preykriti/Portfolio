@@ -51,6 +51,7 @@ const Projects = () => {
           and activating deep focus mode which prevents distractions by blocking
           other apps during a session."
           github="https://github.com/preykriti/cosmic-focus"
+          download="https://github.com/preykriti/cosmic-focus/releases/download/v1.0.0/app-release.apk"
         />
 
         <ProjectCard
@@ -62,13 +63,20 @@ const Projects = () => {
         />
 
         <ProjectCard
-        title="Todo App"
-        description="A Todo App built using React Native and Firebase with user
+          title="Todo App"
+          description="A Todo App built using React Native and Firebase with user
           authentication. Users can add, edit, and delete tasks, and mark tasks
           as completed using a checkbox system helping them manage their daily
           activities efficiently."
-        github="https://github.com/preykriti/todo-mobile-app"
-      />
+          github="https://github.com/preykriti/todo-mobile-app"
+        />
+
+        <ProjectCard
+          title="Bubble Shooter Game"
+          description="A classic Bubble Shooter game built with HTML, CSS, and JavaScript. Players aim and shoot bubbles from a cannon to match three or more of the same color. The game features multiple difficulty levels, sound effect and a scoring system."
+          github="https://github.com/preykriti/bubble-shooter"
+          website="https://bubble-shooter-prakriti.netlify.app/"
+        />
       </div>
     </div>
   );

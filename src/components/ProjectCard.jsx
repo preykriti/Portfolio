@@ -1,25 +1,35 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import LinkButton from "./LinkButton";
 
-const ProjectCard = (props) => {
+const ProjectCard = ({ title, description, github, website, download }) => {
   return (
     <div>
-      <div className="flex flex-col justify-between  bg-softCream bg-opacity-10 text-mutedBlush rounded-lg p-3 min-h-full">
+      <div className="flex flex-col justify-between  bg-softCream bg-opacity-10 text-mutedBlush rounded-lg px-5 py-3 min-h-full">
         <div>
-          <h4 className="text-xl pb-2">{props.title}</h4>
+          <h4 className="text-xl pb-2">{title}</h4>
           <hr className="h-1 bg-sageGreen border-none" />
-          <p className="pt-2 text-justify">{props.description}</p>
+          <p className="pt-2 text-justify">{description}</p>
         </div>
-        <a
-          href={props.github}
-          target="blank"
-          rel="noopener noreferrer"
-          className={`${
-            props.github ? "flex" : "hidden"
-          } justify-between items-center bg-sageGreen rounded-full py-1 px-5 my-3  w-1/3 font-medium text-shadowColor shadow-[4px_4px_0px_#4A5845]`}
-        >
-          <p>GitHub</p> <FaExternalLinkAlt className="text-sm" />
-        </a>
+
+        <div className="flex justify-between mt-4 w-full">
+          {github && (
+            <LinkButton link={github}>
+              <p>GitHub</p> 
+            </LinkButton>
+          )}
+
+          {website && (
+            <LinkButton link={website}>
+              <p>Live Demo</p> 
+            </LinkButton>
+          )}
+          {download && (
+            <LinkButton link={download}>
+              <p>Download APK</p> 
+            </LinkButton>
+          )}
+        </div>
       </div>
     </div>
   );

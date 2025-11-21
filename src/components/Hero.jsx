@@ -1,7 +1,6 @@
 import React from "react";
 import myPhoto from "../assets/myPhoto.png";
 import LineSeparation from "./LineSeparation";
-import resume from "/resume.pdf";
 
 const Hero = () => {
   return (
