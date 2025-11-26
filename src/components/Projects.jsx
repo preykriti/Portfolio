@@ -39,8 +39,9 @@ const Projects = () => {
 
         <ProjectCard
           title="eCommerce Platform"
-          description="An e-commerce website with features like product filtering by category, subcategory, and price, search function, and add-to-cart functionality. The website is fully responsive across different screen sizes, with ongoing work on the backend and additional features."
+          description="An e-commerce website where users can browse products, search and filter by categories, sort by price, add items to their cart, and place orders. Users can securely log in and the admin can upload products and manage orders. The site also features Khalti payment integration and is fully responsive."
           github="https://github.com/preykriti/Ecommerce-app"
+          website="https://shoppy-corner.vercel.app"
         />
 
         <ProjectCard
