@@ -17,7 +17,7 @@ const Projects = () => {
         <ProjectCard
           title="Regional Based Crop Yield Prediction Using LSTM"
           description="Collaborated with a team to develop a machine learning-based web app
-            that predicts crop yields across Nepal’s regions by analyzing soil,
+            that predicts crop yields across Nepal's regions by analyzing soil,
             weather, and crop data. Managed data collection and preprocessing
             using Jupyter and Python."
         />
@@ -29,8 +29,8 @@ const Projects = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 my-8">
         <ProjectCard
-          title="Notebook App"
-          description="A note-taking web application, implementing features like
+          title="Notebook Web App"
+          description="A note-taking web application made using MERN, implementing features like
             creating, editing, and deleting notes. Added user authentication,
             tag-based filtering, and a responsive interface for smooth user
             experience."
@@ -39,7 +39,7 @@ const Projects = () => {
 
         <ProjectCard
           title="eCommerce Platform"
-          description="An e-commerce website where users can browse products, search and filter by categories, sort by price, add items to their cart, and place orders. Users can securely log in and the admin can upload products and manage orders. The site also features Khalti payment integration and is fully responsive."
+          description="An e-commerce website made using MERN where users can browse products, search and filter by categories, sort by price, add items to their cart, and place orders. Users can securely log in and the admin can upload products and manage orders. The site also features Khalti payment integration and is fully responsive."
           github="https://github.com/preykriti/Ecommerce-app"
           website="https://shoppy-corner.vercel.app"
         />

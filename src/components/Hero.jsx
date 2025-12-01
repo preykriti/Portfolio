@@ -4,8 +4,8 @@ import LineSeparation from "./LineSeparation";
 
 const Hero = () => {
   return (
-    <div className="pt-6 mb-16" id="hero">
-      <LineSeparation />
+    <div className="pt-11 mb-16" id="hero">
+      {/* <LineSeparation /> */}
       <div className=" flex sm:flex-row flex-col pt-6 items-center">
         <div className="relative sm:w-1/2 group">
           <div className="absolute bg-sageGreen inset-0 z-0 rounded-lg group-hover:scale-75 transition-transform duration-500"></div>

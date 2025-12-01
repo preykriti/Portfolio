@@ -15,11 +15,11 @@ const Navbar = () => {
         className="text-4xl font-unkempt cursor-pointer"
       >
         <span className="flex items-center">
-          P<img src={daisy} className="w-8 h-8 animate-spin" />
+          P<img src={daisy} className="w-8 h-8 " />
           RTF
           <img src={daisy} className="w-8 h-8 animate-spin" />
           LI
-          <img src={daisy} className="w-8 h-8 animate-spin" />
+          <img src={daisy} className="w-8 h-8 " />
         </span>
       </Link>
       <ul className="gap-14 text-lg hidden md:flex font-poppins">

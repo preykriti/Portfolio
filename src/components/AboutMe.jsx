@@ -33,7 +33,7 @@ const AboutMe = () => {
                 src={daisyFlower}
                 className="w-11 group-hover:animate-spin "
               />
-              <h3 className="mr-12 text-xl text-mutedBlush">2021-2025</h3>
+              <h3 className="mr-12 text-lg text-mutedBlush">2021-2025</h3>
               <div>
                 <p className="text-sm">Bachelors in Computer Engineering</p>
                 <p>Himalaya College of Engineering, Chyasal, Lalitpur</p>
@@ -44,7 +44,7 @@ const AboutMe = () => {
                 src={daisyFlower}
                 className="w-11 group-hover:animate-spin"
               />
-              <h3 className="mr-12 text-xl text-mutedBlush">2018-2020 </h3>
+              <h3 className="mr-12 text-lg text-mutedBlush">2018-2020 </h3>
               <div>
                 <p className="text-sm">Grade 11 & Grade 12</p>
                 <p>Capital College and Research Center, Balkumari, Lalitpur</p>
@@ -55,7 +55,7 @@ const AboutMe = () => {
                 src={daisyFlower}
                 className="w-11 group-hover:animate-spin"
               />
-              <h3 className="mr-12 text-xl text-mutedBlush">2006-2018</h3>
+              <h3 className="mr-12 text-lg text-mutedBlush">2006-2018</h3>
               <div>
                 <p className="text-sm">SEE</p>
                 <p>
